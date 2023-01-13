@@ -60,8 +60,8 @@ export class EditPublicistetHuaj extends Component{
                         <Row>
                             <Col sm={6}>
                                 <Form onSubmit={this.submitPublicistetH}>
-                                    <Form.Group controlId="PublicistetID">
-                                    <Form.Control type="text" name="PublicistetID" required hidden defaultValue = {this.props.prodid} placeholder="PublicistetID"/>
+                                    <Form.Group controlId="PublicistetHID">
+                                    <Form.Control type="text" name="PublicistetHID" required hidden defaultValue = {this.props.prodid} placeholder="PublicistetHID"/>
                                     </Form.Group>
                                     <Form.Group controlId="Emri">
                                         <Form.Label>Emri</Form.Label>
