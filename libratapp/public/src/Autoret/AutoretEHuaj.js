@@ -11,7 +11,7 @@ export class AutoretEHuaj extends Component{
     }
 
     refreshList(){
-        fetch(process.env.REACT_APP_API+'autorethuaj')
+        fetch(process.env.REACT_APP_API+'autoretehuaj')
         .then(response=>response.json())
         .then(data=>{
             this.setState({aut:data});
