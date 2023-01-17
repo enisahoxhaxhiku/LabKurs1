@@ -4,7 +4,7 @@ import * as Yup from 'yup';
 import { Formik, Field, ErrorMessage } from 'formik';
 
 
-export class AddAutoretHuaj extends Component{
+export class AddAutoretEHuaj extends Component{
     constructor(props){
         super(props);
         this.submitAutorH=this.submitAutorH.bind(this);
@@ -31,7 +31,7 @@ export class AddAutoretHuaj extends Component{
 
       submitAutorH(event){
         event.preventDefault();
-        fetch(process.env.REACT_APP_API+'autorethuaj',{
+        fetch(process.env.REACT_APP_API+'autoretehuaj',{
             method:'POST',
             headers:{
                 'Accept':'application/json',
@@ -50,7 +50,7 @@ export class AddAutoretHuaj extends Component{
         (error)=>{
             alert('Ka ndodhur nje gabim');
         })
-        {window.location.href="/autorethuaj"}
+        {window.location.href="/autoretehuaj"}
     }
     render(){
         const initialValues = {
