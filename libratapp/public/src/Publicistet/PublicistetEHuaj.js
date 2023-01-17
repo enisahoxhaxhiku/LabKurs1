@@ -7,7 +7,7 @@ import {Card} from 'react-bootstrap';
 
 
 
-export class PublicistetHuaj extends Component{
+export class PublicistetEHuaj extends Component{
 
      constructor(props){
          super(props)
@@ -17,7 +17,7 @@ export class PublicistetHuaj extends Component{
 
 
     refreshList(){
-        fetch(process.env.REACT_APP_API+'publicistethuaj')
+        fetch(process.env.REACT_APP_API+'publicistetehuaj')
         .then(response=>response.json())
         .then(data=>{
             this.setState({prods:data});
