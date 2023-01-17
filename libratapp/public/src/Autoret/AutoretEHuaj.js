@@ -4,7 +4,7 @@ import {Dropdown, Button, ButtonToolbar} from 'react-bootstrap';
 import {Helmet} from "react-helmet";
 import {Card} from 'react-bootstrap';
 
-export class AutoretHuaj extends Component{
+export class AutoretEHuaj extends Component{
     constructor(props){
         super(props)
         this.state={aut:[]}
