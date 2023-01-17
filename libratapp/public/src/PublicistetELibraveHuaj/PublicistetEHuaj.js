@@ -7,7 +7,7 @@ import { Button , ButtonToolbar} from 'react-bootstrap';
 import { AddPublicistetHuaj } from './AddPublicistetHuaj';
 import { EditPublicistetHuaj } from './EditPublicistetHuaj';
 
-export class PublicistetHuaj extends Component{
+export class PublicistetEHuaj extends Component{
 
     constructor(props){
         super(props);
