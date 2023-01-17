@@ -61,19 +61,19 @@ export class EditPublicistetHuaj extends Component{
                             <Col sm={6}>
                                 <Form onSubmit={this.submitPublicistetH}>
                                     <Form.Group controlId="PublicistetHID">
-                                    <Form.Control type="text" name="PublicistetHID" required hidden defaultValue = {this.props.prodid} placeholder="PublicistetHID"/>
+                                    <Form.Control type="text" name="PublicistetHID" required hidden defaultValue = {this.props.publid} placeholder="PublicistetHID"/>
                                     </Form.Group>
                                     <Form.Group controlId="Emri">
                                         <Form.Label>Emri</Form.Label>
-                                        <Form.Control type="text" name="Emri" required defaultValue={this.props.prodemri} placeholder="Emri"/>
+                                        <Form.Control type="text" name="Emri" required defaultValue={this.props.publemri} placeholder="Emri"/>
                                     </Form.Group>
                                     <Form.Group controlId="Mbiemri">
                                     <Form.Label>Mbiemri</Form.Label>
-                                        <Form.Control type="text" name="Mbiemri" required defaultValue={this.props.prodmbiemri} placeholder="Mbiemri"/>
+                                        <Form.Control type="text" name="Mbiemri" required defaultValue={this.props.publmbiemri} placeholder="Mbiemri"/>
                                     </Form.Group>
                                     <Form.Group controlId="Biografia">
                                     <Form.Label>Biografia</Form.Label>
-                                        <Form.Control as="textarea" name="Biografia" required defaultValue={this.props.prodbiografia} placeholder="Biografia"/>
+                                        <Form.Control as="textarea" name="Biografia" required defaultValue={this.props.publbiografia} placeholder="Biografia"/>
                                     </Form.Group>
 
                                     <Form.Group>
